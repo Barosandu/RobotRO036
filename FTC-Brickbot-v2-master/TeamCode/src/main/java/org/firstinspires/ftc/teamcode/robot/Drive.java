@@ -184,7 +184,7 @@ public class Drive {
         double y = Control.robotMove();
         double x = Control.robotSlide();
         double r = Control.robotRotate();
-
+//am reparat miscarile
         Drive.setNormalisedPower(x + y + r, -x + y - r, -x + y + r, x + y - r);
     }
 
